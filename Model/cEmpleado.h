@@ -8,6 +8,7 @@
 #include "cTicketdecompra.h"
 #include "cDescuento.h"
 #include "cCliente.h"
+#include "Headers.h"
 
 class cEmpleado {
 

@@ -6,6 +6,7 @@
 #ifndef _CTICKETDECOMPRA_H
 #define _CTICKETDECOMPRA_H
 
+
 class cTicketdecompra {
 private:
     float precioTotal;

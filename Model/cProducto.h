@@ -6,6 +6,7 @@
 #ifndef _CPRODUCTO_H
 #define _CPRODUCTO_H
 
+#include"Headers.h"
 
 class cProducto {
 
