@@ -33,10 +33,10 @@ int cEmpleadoLimpieza::GET_TURNO() {
  * @param string
  * @param int
  */
-void cEmpleadoLimpieza::cEmpleadoLimpieza(void string, void string, void int, void const string, void string, void int) {
+-cEmpleadoLimpieza::cEmpleadoLimpieza(string nombre, string apellido, int numeroEmpleado, const string DNI, string contacto, int turno) {
 
 }
 
-void cEmpleadoLimpieza::cEmpleadoLimpieza() {
+cEmpleadoLimpieza::~cEmpleadoLimpieza() {
 
 }

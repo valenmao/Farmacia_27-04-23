@@ -19,15 +19,14 @@ public:
  * @param const string
  * @param string
  */
-void cEmpleadoPerfumeria(void string, void string, void int, void const string, void string);
+cEmpleadoPerfumeria(string nombre, string apellido, int numeroEmpleado, const string DNI, string contacto);
     
 /**
  * @param cCliente
  */
-void Asesorar(void cCliente);
-protected: 
+void Asesorar(cCliente cliente);
     
-void cEmpleadoPerfumeria();
+ ~cEmpleadoPerfumeria();
 };
 
 #endif //_CEMPLEADOSPERFUMERIA_H

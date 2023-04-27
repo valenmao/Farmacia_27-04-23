@@ -17,7 +17,7 @@
  * @param const string
  * @param string
  */
-void cEmpleadoCaja::cEmpleadoCaja(void string, void string, void int, void const string, void string) {
+ cEmpleadoCaja::cEmpleadoCaja(string nombre,string apellido, int numeroEmpleado,const string DNI, string contacto) {
 
 }
 
@@ -25,28 +25,28 @@ void cEmpleadoCaja::cEmpleadoCaja(void string, void string, void int, void const
  * @return eMetodo
  */
 eMetodo cEmpleadoCaja::GET_METODOPAGO() {
-    return null;
+    return;
 }
 
 /**
  * @return eFormato
  */
 eFormato cEmpleadoCaja::GET_FORMATO() {
-    return null;
+    return;
 }
 
 /**
  * @return cCarrito
  */
 cCarrito cEmpleadoCaja::GET_CARRITO() {
-    return null;
+    return;
 }
 
 /**
  * @param float 
  * @return void
  */
-void cEmpleadoCaja::Cobrar(void float ) {
+void cEmpleadoCaja::Cobrar(float precioTotal) {
     return;
 }
 
@@ -55,10 +55,10 @@ void cEmpleadoCaja::Cobrar(void float ) {
  * @param cCliente
  * @return cTicketdecompra
  */
-cTicketdecompra cEmpleadoCaja::AgregarTicketCaja(void cCarritoExtras, void cCliente) {
-    return null;
+cTicketdecompra cEmpleadoCaja::AgregarTicketCaja(cCarrito carrito,cCliente cliente) {
+    return;
 }
 
-void cEmpleadoCaja::cEmpleadoCaja() {
+cEmpleadoCaja::~cEmpleadoCaja() {
 
 }

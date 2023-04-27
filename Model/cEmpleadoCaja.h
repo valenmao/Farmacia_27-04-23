@@ -19,7 +19,7 @@ public:
  * @param const string
  * @param string
  */
-void cEmpleadoCaja(void string, void string, void int, void const string, void string);
+ cEmpleadoCaja(string nombre, string apellido,int numeroEmpleado,const string DNI, string contacto);
     
 eMetodo GET_METODOPAGO();
     
@@ -30,16 +30,14 @@ cCarrito GET_CARRITO();
 /**
  * @param float
  */
-void Cobrar(void float );
+void Cobrar( float precioTotal);
     
 /**
  * @param cCarritoExtras
  * @param cCliente
  */
-cTicketdecompra AgregarTicketCaja(void cCarritoExtras, void cCliente);
-protected: 
-    
-void cEmpleadoCaja();
+cTicketdecompra AgregarTicketCaja(cCarrito carrito, cCliente cliente);
+~cEmpleadoCaja();
 };
 
 #endif //_CEMPLEADOCAJA_H

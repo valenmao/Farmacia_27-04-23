@@ -5,22 +5,19 @@
 
 #ifndef _CDESCUENTO_H
 #define _CDESCUENTO_H
+#include "cCliente.h"
 
 class cDescuento {
 public: 
     
-float GET_PORCENTAJE();
-    
-/**
- * @param float
- * @param string
- */
-void cDescuento(void float, void string);
-    
-string GET_OBRASOCIAL();
-protected: 
-    
-void cDescuento();
+    /**
+* @param float
+* @param string
+*/
+       float GET_PORCENTAJE();
+       string GET_OBRASOCIAL();
+       cDescuento(float porcentaje, string obraSocial);
+       ~cDescuento();
 private: 
     float porcentaje;
     string obraSocial;

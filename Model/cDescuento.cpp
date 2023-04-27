@@ -21,7 +21,7 @@ float cDescuento::GET_PORCENTAJE() {
  * @param float
  * @param string
  */
-void cDescuento::cDescuento(void float, void string) {
+ cDescuento::cDescuento( float porcentaje, string obraSocial) {
 
 }
 
@@ -32,6 +32,6 @@ string cDescuento::GET_OBRASOCIAL() {
     return "";
 }
 
-void cDescuento::cDescuento() {
+cDescuento::~cDescuento() {
 
 }

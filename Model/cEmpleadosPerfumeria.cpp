@@ -17,7 +17,7 @@
  * @param const string
  * @param string
  */
-void cEmpleadosPerfumeria::cEmpleadoPerfumeria(void string, void string, void int, void const string, void string) {
+ cEmpleadosPerfumeria::cEmpleadoPerfumeria(string nombre, string apellido, int numeroEmpleado, const string DNI, string contacto) {
 
 }
 
@@ -25,10 +25,10 @@ void cEmpleadosPerfumeria::cEmpleadoPerfumeria(void string, void string, void in
  * @param cCliente
  * @return void
  */
-void cEmpleadosPerfumeria::Asesorar(void cCliente) {
+void cEmpleadosPerfumeria::Asesorar(cCliente cliente) {
     return;
 }
 
-void cEmpleadosPerfumeria::cEmpleadoPerfumeria() {
+cEmpleadosPerfumeria::~cEmpleadoPerfumeria() {
 
 }

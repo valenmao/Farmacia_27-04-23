@@ -7,7 +7,7 @@
 #define _CPERFUMERIA_H
 
 #include "cProducto.h"
-
+#include "ePerfumeria.h"
 
 class cPerfumeria: public cProducto {
 public: 
@@ -21,7 +21,7 @@ ePerfumeria GET_TIPO();
  * @param string
  * @param ePerfumeria
  */
-void cPerfumeria(void float, void string, void int, void string, void ePerfumeria);
+void cPerfumeria(void float, void string, void int, void string,  ePerfumeria );
 protected: 
     
 void cPerfumeria();

@@ -19,7 +19,7 @@
  * @param eNecesidad
  * @param const string
  */
-void cCliente::cCliente(void string, void string, void string, void eMetodo, void struct, void eNecesidad, void const string) {
+ cCliente::cCliente(string nombre, string apellido, string contacto, eMetodo metodoPago, sLesion lesion, eNecesidad necesidad, const string DNI) {
 
 }
 
@@ -27,7 +27,7 @@ void cCliente::cCliente(void string, void string, void string, void eMetodo, voi
  * @return cCarrito
  */
 cCarrito cCliente::GET_CARRITO() {
-    return null;
+    return this->carrito;
 }
 
 /**
@@ -35,7 +35,7 @@ cCarrito cCliente::GET_CARRITO() {
  * @param int 
  * @return void
  */
-void cCliente::AgregarProductosPerfumeria(void cProducto, void int ) {
+ void cCliente::AgregarProductosPerfumeria(cProducto prodPerfumeria,int cantidad ) {
     return;
 }
 
@@ -44,10 +44,10 @@ void cCliente::AgregarProductosPerfumeria(void cProducto, void int ) {
  * @param int
  * @return void
  */
-void cCliente::AgregarGolosinas(void cProducto, void int) {
+void cCliente::AgregarGolosinas(cProducto golosinas, int cantidad) {
     return;
 }
 
-void cCliente::cCliente() {
+cCliente::~cCliente() {
 
 }

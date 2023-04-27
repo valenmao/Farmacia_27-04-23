@@ -14,7 +14,7 @@
  * @param cCliente
  * @return void
  */
-void cEmpleado::AtenderCliente(void cCliente) {
+void cEmpleado::AtenderCliente(cCliente cliente) {
     return;
 }
 
@@ -24,7 +24,7 @@ void cEmpleado::AtenderCliente(void cCliente) {
  * @param float
  * @return float
  */
-float cEmpleado::CalculaMontoACobrar(void cProducto, void int, void float) {
+float cEmpleado::CalculaMontoACobrar(cProducto producto, int cantidad, float precio) {
     return 0.0;
 }
 
@@ -35,8 +35,8 @@ float cEmpleado::CalculaMontoACobrar(void cProducto, void int, void float) {
  * @param int
  * @return cTicketdecompra
  */
-cTicketdecompra cEmpleado::EmitirTicket(void float, void cProducto, void cCliente, void int) {
-    return null;
+cTicketdecompra cEmpleado::EmitirTicket(float precio, cProducto producto, cCliente cliente, int cantidad) {
+    return;
 }
 
 /**
@@ -44,7 +44,7 @@ cTicketdecompra cEmpleado::EmitirTicket(void float, void cProducto, void cClient
  * @param cCarrito
  * @return void
  */
-void cEmpleado::AgregarProductoCarrito(void ccProducto, void cCarrito) {
+void cEmpleado::AgregarProductoCarrito( cProducto producto, cCarrito carrito) {
     return;
 }
 
@@ -52,7 +52,7 @@ void cEmpleado::AgregarProductoCarrito(void ccProducto, void cCarrito) {
  * @param cCliente
  * @return void
  */
-void cEmpleado::PasarClienteaCaja(void cCliente) {
+void cEmpleado::PasarClienteaCaja(cCliente cliente) {
     return;
 }
 
@@ -63,10 +63,10 @@ void cEmpleado::PasarClienteaCaja(void cCliente) {
  * @param const string
  * @param string
  */
-void cEmpleado::cEmpleado(void string, void string, void int, void const string, void string) {
+ cEmpleado::cEmpleado( string nombre, string apellido, int numeroEmpleado,  const string DNI, string contacto) {
 
 }
 
-void cEmpleado::cEmpleado() {
+ cEmpleado::~cEmpleado() {
 
 }

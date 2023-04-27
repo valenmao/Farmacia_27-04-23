@@ -18,7 +18,7 @@
  * @param string
  * @param unsigned int
  */
-void cEmpleadoMostrador::cEmpleadoMostrador(void string, void string, void int, void const string, void string, void unsigned int) {
+cEmpleadoMostrador::cEmpleadoMostrador(string nombre, string apellido, int numerEmpleado, const string DNI, string contacto, unsigned int numActual) {
 
 }
 
@@ -26,14 +26,6 @@ void cEmpleadoMostrador::cEmpleadoMostrador(void string, void string, void int, 
  * @return cCliente
  */
 cCliente cEmpleadoMostrador::GET_CLIENTE() {
-    return null;
-}
-
-/**
- * @param unsigned int
- * @return void
- */
-void cEmpleadoMostrador::SET_NUMACTUAL(void unsigned int) {
     return;
 }
 
@@ -41,7 +33,15 @@ void cEmpleadoMostrador::SET_NUMACTUAL(void unsigned int) {
  * @param unsigned int
  * @return void
  */
-void cEmpleadoMostrador::LlamarNumSiguiente(void unsigned int) {
+void cEmpleadoMostrador::SET_NUMACTUAL(unsigned int numero) {
+    return;
+}
+
+/**
+ * @param unsigned int
+ * @return void
+ */
+void cEmpleadoMostrador::LlamarNumSiguiente(unsigned int numero) {
     return;
 }
 
@@ -49,10 +49,10 @@ void cEmpleadoMostrador::LlamarNumSiguiente(void unsigned int) {
  * @param cCliente
  * @return void
  */
-void cEmpleadoMostrador::EnviarClienteOtroEmp(void cCliente) {
+void cEmpleadoMostrador::EnviarClienteOtroEmp( cCliente cliente) {
     return;
 }
 
-void cEmpleadoMostrador::cEmpleadoMostrador() {
+cEmpleadoMostrador::~cEmpleadoMostrador() {
 
 }
