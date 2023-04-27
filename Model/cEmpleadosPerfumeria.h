@@ -17,7 +17,6 @@ cEmpleadosPerfumeria(string nombre, string apellido, int numeroEmpleado, const s
 ~cEmpleadosPerfumeria();
 
 void Asesorar(cCliente cliente);
-    
 
 };
 

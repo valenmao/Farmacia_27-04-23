@@ -5,6 +5,7 @@
 
 #ifndef _CFACTURA_H
 #define _CFACTURA_H
+#include"Headers.h"
 
 class cFactura {
 private:
@@ -15,11 +16,12 @@ private:
 
 public: 
     cFactura(float _monto, string _nombreCliente, string _fecha, bool _formato);
+    
     ~cFactura();
 
-bool GET_FORMATO();
+    bool GET_FORMATO();
  
-void SET_FORMATO(bool _nuevoFormato);
+    void SET_FORMATO(bool _nuevoFormato);
 
 };
 

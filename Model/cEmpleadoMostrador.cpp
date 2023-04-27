@@ -10,11 +10,11 @@ cEmpleadoMostrador::cEmpleadoMostrador(string nombre, string apellido, int numer
 
 }
 
-cCliente cEmpleadoMostrador::GET_CLIENTE() {
-    return;
+cEmpleadoMostrador::~cEmpleadoMostrador() {
+
 }
 
-void cEmpleadoMostrador::SET_NUMACTUAL(unsigned int numero) {
+cCliente cEmpleadoMostrador::GET_CLIENTE() {
     return;
 }
 
@@ -22,10 +22,10 @@ void cEmpleadoMostrador::LlamarNumSiguiente(unsigned int numero) {
     return;
 }
 
-void cEmpleadoMostrador::EnviarClienteOtroEmp( cCliente cliente) {
+void cEmpleadoMostrador::EnviarClienteOtroEmp( cCliente _cliente) {
     return;
 }
 
-cEmpleadoMostrador::~cEmpleadoMostrador() {
-
+void cEmpleadoMostrador::SET_NUMACTUAL(unsigned int numero)
+{
 }

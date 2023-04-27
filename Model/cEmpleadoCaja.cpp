@@ -9,6 +9,9 @@
  cEmpleadoCaja::cEmpleadoCaja(string nombre,string apellido, int numeroEmpleado,const string DNI, string contacto) {
 
 }
+ cEmpleadoCaja::~cEmpleadoCaja() {
+
+ }
 
 eMetodo cEmpleadoCaja::GET_METODOPAGO() {
     return;
@@ -30,6 +33,3 @@ cTicketdecompra cEmpleadoCaja::AgregarTicketCaja(cCarrito carrito,cCliente clien
     return;
 }
 
-cEmpleadoCaja::~cEmpleadoCaja() {
-
-}

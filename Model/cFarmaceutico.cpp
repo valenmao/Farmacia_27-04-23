@@ -6,7 +6,11 @@
 #include "cFarmaceutico.h"
 
 
-cFarmaceutico::cFarmaceutico(string, string, int, const string, string) {
+cFarmaceutico::cFarmaceutico(string nombre, string apellido, int numeroEmpleado, const string DNI, string contacto) {
+
+}
+
+cFarmaceutico::~cFarmaceutico() {
 
 }
 
@@ -34,10 +38,7 @@ void cFarmaceutico::ExpenderReceta(cReceta miReceta) {
     return;
 }
 
-float cFarmaceutico::ChequearDescuentos(void cReceta, void cDescuentos) {
+float cFarmaceutico::ChequearDescuentos(cReceta _objetoReceta, cDescuento _objetoDescuento) {
     return 0.0;
 }
 
-cFarmaceutico::~cFarmaceutico() {
-
-}

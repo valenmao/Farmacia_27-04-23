@@ -16,15 +16,16 @@ private:
 
 public: 
     cCarrito(float _precioTotal, int _cantidad);
+    
     ~cCarrito();
     
     cProducto GET_LISTAPRODUCTOS();
 
     void SET_PRECIOCARRITO(float _precioNuevo);
     
-    void AgregarProductos(cProductos _product, int _cant);
+    void AgregarProductos(cProducto _product, int _cant);
 
-    void EliminarProductos(cProductos _product, int _cant );
+    void EliminarProductos(cProducto _product, int _cant );
 
 };
 

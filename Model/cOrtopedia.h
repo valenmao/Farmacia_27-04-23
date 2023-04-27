@@ -9,20 +9,16 @@
 #include "cProducto.h"
 #include "eOrtopedia.h"
 
-class cOrtopedia: public cProducto {
+class cOrtopedia : public cProducto {
 private:
     eOrtopedia tipoProducto;
 
-public: 
-    
-eOrtopedia GET_TIPO();
-    
-cOrtopedia(float _precio, string _nombre, int _cantidad, string _marca, eOrtopedia _tipoProduct) {
+public:
+    cOrtopedia(float _precio, string _nombre, int _cantidad, string _marca, eOrtopedia _tipoProduct);
 
-}
+    ~cOrtopedia();
 
-~cOrtopedia();
-
+    eOrtopedia GET_TIPO();
 };
 
 #endif //_CORTOPEDIA_H

@@ -5,11 +5,16 @@
 
 #include "cEmpleado.h"
 
+cEmpleado::cEmpleado(string nombre, string apellido, int numeroEmpleado, const string DNI, string contacto) {
 
+}
+
+cEmpleado::~cEmpleado() {
+
+}
 void cEmpleado::AtenderCliente(cCliente cliente) {
     return;
 }
-
 
 float cEmpleado::CalculaMontoACobrar(cProducto producto, int cantidad, float precio) {
     return 0.0;
@@ -27,10 +32,3 @@ void cEmpleado::PasarClienteaCaja(cCliente cliente) {
     return;
 }
 
- cEmpleado::cEmpleado( string nombre, string apellido, int numeroEmpleado,  const string DNI, string contacto) {
-
-}
-
- cEmpleado::~cEmpleado() {
-
-}

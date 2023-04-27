@@ -9,14 +9,16 @@
 #include "cEmpleado.h"
 
 
-class cEmpleadoMostrador: public cEmpleado {
+class cEmpleadoMostrador : public cEmpleado {
 
-private: 
+private:
     unsigned int numActual;
-    
+
 public:
 
-    void cEmpleadoMostrador(string nombre, string apellido,int numerEmpleado,const string DNI, string contacto,unsigned int numActual);
+    cEmpleadoMostrador(string nombre, string apellido, int numerEmpleado, const string DNI, string contacto, unsigned int numActual);
+
+    ~cEmpleadoMostrador();
 
     cCliente GET_CLIENTE();
 
@@ -24,8 +26,8 @@ public:
 
     void LlamarNumSiguiente(unsigned int numero);
 
-    void EnviarClienteOtroEmp(cCliente cliente);
-    ~cEmpleadoMostrador();
+    void EnviarClienteOtroEmp(cCliente _cliente);
+   
 };
 
 #endif //_CEMPLEADOMOSTRADOR_H

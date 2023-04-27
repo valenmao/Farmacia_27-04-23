@@ -12,6 +12,7 @@ private:
 
 public: 
 cNumeroCliente(int _numeroActual);
+
 ~cNumeroCliente();
 
 int GET_NUMERO();

@@ -22,9 +22,6 @@ cLocal(string _nombre, string _direccion, string _contacto);
 
 void AgregarTicketCompra(cTicketdecompra _ticketNuevo);
 
-    
-~cLocal();
-
 };
 
 #endif //_CLOCAL_H

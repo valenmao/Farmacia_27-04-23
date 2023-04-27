@@ -10,7 +10,7 @@
 
 }
 
-structLesion cEmpleadoOrtopedia::GET_LESION() {
+sLesion cEmpleadoOrtopedia::GET_LESION() {
     return;
 }
 

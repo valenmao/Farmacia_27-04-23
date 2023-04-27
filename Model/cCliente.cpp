@@ -10,8 +10,12 @@
 
 }
 
+ cCliente::~cCliente() {
+
+ }
+ 
 cCarrito cCliente::GET_CARRITO() {
-    return this->carrito;
+    return;
 }
 
  void cCliente::AgregarProductosPerfumeria(cProducto prodPerfumeria,int cantidad ) {
@@ -22,6 +26,3 @@ void cCliente::AgregarGolosinas(cProducto golosinas, int cantidad) {
     return;
 }
 
-cCliente::~cCliente() {
-
-}

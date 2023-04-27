@@ -18,7 +18,12 @@ protected:
     int numeroEmpleado;
     const string DNI;
     string contacto;
+
 public:
+    
+    cEmpleado(string nombre, string apellido, int numeroEmpleado, const string DNI, string contacto);
+    
+    ~cEmpleado();
 
     void AtenderCliente(cCliente cliente);
 
@@ -30,8 +35,6 @@ public:
 
     void PasarClienteaCaja(cCliente cliente);
 
-    cEmpleado(string nombre, string apellido, int numeroEmpleado, const string DNI, string contacto);
-    ~cEmpleado();
 };
 
 #endif //_CEMPLEADO_H

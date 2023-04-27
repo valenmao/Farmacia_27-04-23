@@ -6,7 +6,7 @@
 #include "cEmpleadosPerfumeria.h"
 
 
- cEmpleadosPerfumeria::cEmpleadoPerfumeria(string nombre, string apellido, int numeroEmpleado, const string DNI, string contacto) {
+ cEmpleadosPerfumeria::cEmpleadosPerfumeria(string nombre, string apellido, int numeroEmpleado, const string DNI, string contacto) {
 
 }
 

@@ -16,12 +16,12 @@ private:
     ePerfumeria tipoProducto;
 
 public: 
-    
-ePerfumeria GET_TIPO();
-    
+
 cPerfumeria( float _precio, string _nombre, int _cantidad, string _marca, ePerfumeria _tipoProduct);
 
 ~cPerfumeria();
+
+ePerfumeria GET_TIPO();
 
 };
 
