@@ -17,13 +17,6 @@ public:
     
 eOrtopedia GET_TIPO();
     
-/**
- * @param float
- * @param string
- * @param int
- * @param string
- * @param eOrtopedia
- */
 cOrtopedia(float _precio, string _nombre, int _cantidad, string _marca, eOrtopedia _tipoProduct) {
 
 }

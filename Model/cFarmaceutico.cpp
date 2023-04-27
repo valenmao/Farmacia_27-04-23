@@ -5,77 +5,39 @@
 
 #include "cFarmaceutico.h"
 
-/**
- * cFarmaceutico implementation
- */
 
-
-/**
- * @param string
- * @param string
- * @param int
- * @param const string
- * @param string
- */
-void cFarmaceutico::cFarmaceutico(void string, void string, void int, void const string, void string) {
+cFarmaceutico::cFarmaceutico(string, string, int, const string, string) {
 
 }
 
-/**
- * @return cDescuento
- */
 cDescuento cFarmaceutico::GET_LISTADESCUENTOS() {
     return null;
 }
 
-/**
- * @return cReceta
- */
 cReceta cFarmaceutico::GET_RECETA() {
     return null;
 }
 
-/**
- * @return cProducto
- */
 cProducto cFarmaceutico::GET_MEDICAMENTO() {
     return null;
 }
 
-/**
- * @param cReceta
- * @param cProducto
- * @return void
- */
-void cFarmaceutico::ExplicarDosificacion(void cReceta, void cProducto) {
+void cFarmaceutico::ExplicarDosificacion(cReceta _objetoRec, cProducto _objProducto) {
     return;
 }
 
-/**
- * @param cCliente
- * @return void
- */
-void cFarmaceutico::RecomendarRemedios(void cCliente) {
+void cFarmaceutico::RecomendarRemedios(cCliente miCliente) {
     return;
 }
 
-/**
- * @param cReceta
- * @return void
- */
-void cFarmaceutico::ExpenderReceta(void cReceta) {
+void cFarmaceutico::ExpenderReceta(cReceta miReceta) {
     return;
 }
 
-/**
- * @param cReceta
- * @param cDescuentos
- * @return float
- */
 float cFarmaceutico::ChequearDescuentos(void cReceta, void cDescuentos) {
     return 0.0;
 }
 
-void cFarmaceutico::cFarmaceutico() {
+cFarmaceutico::~cFarmaceutico() {
 
 }

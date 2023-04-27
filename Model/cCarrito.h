@@ -18,30 +18,12 @@ public:
     ~cCarrito();
     
     cProducto GET_LISTAPRODUCTOS();
-    
-/**
- * @param float
- */
+
     void SET_PRECIOCARRITO(float _precioNuevo);
     
-/**
- * @param float
- * @param int
- */
-
-/**
- * @param cProductos
- * @param int
- */
     void AgregarProductos(cProductos _product, int _cant);
-    
-/**
- * @param cProductos
- * @param int
- */
+
     void EliminarProductos(cProductos _product, int _cant );
-
-
 
 };
 

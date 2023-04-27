@@ -18,11 +18,8 @@ public:
     ~cFactura();
 
 bool GET_FORMATO();
-    
-
+ 
 void SET_FORMATO(bool _nuevoFormato);
-    
-
 
 };
 

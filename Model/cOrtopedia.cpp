@@ -5,14 +5,6 @@
 
 #include "cOrtopedia.h"
 
-/**
- * cOrtopedia implementation
- */
-
-
-/**
- * @return eOrtopedia
- */
 eOrtopedia cOrtopedia::GET_TIPO() {
     return null;
 }

@@ -24,14 +24,7 @@ public:
 float Get_PRECIO();
     
 string Get_NOMBRE();
-    
-/**
- * @param float
- * @param string 
- * @param int
- * @param string
- */
-
+ 
 };
 
 #endif //_CPRODUCTO_H

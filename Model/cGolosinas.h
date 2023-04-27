@@ -10,15 +10,12 @@
 #include "eGolosinas.h"
 
 
-class cGlosinas : public cProducto {
+class cGolosinas : public cProducto {
 private:
     eGolosinas tipoGolosina;
 public:
-    ~cGolosinas();
-
-  
-    cGolosinas(float _precio, string _nombre, int _cantidad, string _marca, eGolosinas _tipoGolosinas);
-    
+       cGolosinas(float _precio, string _nombre, int _cantidad, string _marca, eGolosinas _tipoGolosinas);
+       ~cGolosinas();
 };
 
 #endif //_CGLOSINAS_H

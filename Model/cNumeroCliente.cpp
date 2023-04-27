@@ -5,10 +5,6 @@
 
 #include "cNumeroCliente.h"
 
-/**
- * cNumeroCliente implementation
- */
-
 
  cNumeroCliente::cNumeroCliente(int _numeroActual) {
 

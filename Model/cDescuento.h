@@ -9,15 +9,12 @@
 
 class cDescuento {
 public: 
-    
-    /**
-* @param float
-* @param string
-*/
-       float GET_PORCENTAJE();
-       string GET_OBRASOCIAL();
-       cDescuento(float porcentaje, string obraSocial);
-       ~cDescuento();
+
+float GET_PORCENTAJE();
+string GET_OBRASOCIAL();
+cDescuento(float porcentaje, string obraSocial);
+~cDescuento();
+
 private: 
     float porcentaje;
     string obraSocial;

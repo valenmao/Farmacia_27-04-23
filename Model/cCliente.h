@@ -28,34 +28,14 @@ private:
     eNecesidad necesidad;
     const stirng DNI;
 public: 
-    
-/**
- * @param string
- * @param string
- * @param string
- * @param eMetodo
- * @param struct
- * @param eNecesidad
- * @param const string
- */
  cCliente(string nombre,string apellido,string contacto, eMetodo metodoPago,  sLesion lesion, eNecesidad necesidad, const string DNI);
     
 cCarrito GET_CARRITO();
-    
-/**
- * @param cProducto
- * @param int
- */
+
 void AgregarProductosPerfumeria(cProducto prodPerfumeria, int cantidad);
-    
-/**
- * @param cProducto
- * @param int
- */
+
 void AgregarGolosinas(cProducto golosinas, int cantidad);
 ~cCliente();
-
-
 };
 
 #endif //_CCLIENTE_H

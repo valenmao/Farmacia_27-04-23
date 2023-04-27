@@ -16,31 +16,14 @@ private:
     
 public:
 
-    /**
-     * @param string
-     * @param string
-     * @param int
-     * @param const string
-     * @param string
-     * @param unsigned int
-     */
     void cEmpleadoMostrador(string nombre, string apellido,int numerEmpleado,const string DNI, string contacto,unsigned int numActual);
 
     cCliente GET_CLIENTE();
 
-    /**
-     * @param unsigned int
-     */
     void SET_NUMACTUAL(unsigned int numero);
 
-    /**
-     * @param unsigned int
-     */
     void LlamarNumSiguiente(unsigned int numero);
 
-    /**
-     * @param cCliente
-     */
     void EnviarClienteOtroEmp(cCliente cliente);
     ~cEmpleadoMostrador();
 };

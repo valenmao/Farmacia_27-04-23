@@ -15,14 +15,8 @@ public:
     
 ePerfumeria GET_TIPO();
     
-/**
- * @param float
- * @param string
- * @param int
- * @param string
- * @param ePerfumeria
- */
 cPerfumeria( float _precio, string _nombre, int _cantidad, string _marca, ePerfumeria _tipoProduct);
+
 ~cPerfumeria();
 private: 
     ePerfumeria tipoProducto;

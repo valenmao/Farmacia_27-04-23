@@ -11,22 +11,14 @@
 
 class cEmpleadosPerfumeria: public cEmpleado {
 public: 
-    
-/**
- * @param string
- * @param string
- * @param int
- * @param const string
- * @param string
- */
-cEmpleadoPerfumeria(string nombre, string apellido, int numeroEmpleado, const string DNI, string contacto);
-    
-/**
- * @param cCliente
- */
+
+cEmpleadosPerfumeria(string nombre, string apellido, int numeroEmpleado, const string DNI, string contacto);
+
+~cEmpleadosPerfumeria();
+
 void Asesorar(cCliente cliente);
     
- ~cEmpleadoPerfumeria();
+
 };
 
 #endif //_CEMPLEADOSPERFUMERIA_H
