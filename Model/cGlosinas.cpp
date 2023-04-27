@@ -17,10 +17,10 @@
  * @param string
  * @param eGolosinas
  */
-void cGlosinas::cGolosinas(void float, void string, void int, void string, void eGolosinas) {
+cGlosinas::cGolosinas(float _precio, string _nombre, int _cantidad, string _marca, eGolosinas _tipoGolosinas) {
 
 }
 
-void cGlosinas::cGolosinas() {
+cGlosinas::~cGolosinas() {
 
 }

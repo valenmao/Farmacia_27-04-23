@@ -1,8 +1,6 @@
 /**
  * Project Untitled
  */
-
-
 #include "cProducto.h"
 
 /**
@@ -30,10 +28,10 @@ string cProducto::Get_NOMBRE() {
  * @param int
  * @param string
  */
-void cProducto::cProducto(void float, void string , void int, void string) {
+cProducto::cProducto(float _precio, string _nombre, int _cantidad, string marca) {
 
 }
 
-void cProducto::cProducto() {
+cProducto::~cProducto() {
 
 }

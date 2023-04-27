@@ -6,9 +6,21 @@
 #ifndef _CPRODUCTO_H
 #define _CPRODUCTO_H
 
+
 class cProducto {
+
+protected:
+    float precio;
+    string nombre;
+    int cantidad;
+    string marca;
+
 public: 
     
+ cProducto(float _precio, string _nombre, int _cantidad, string marca);
+
+ ~cProducto();
+
 float Get_PRECIO();
     
 string Get_NOMBRE();
@@ -19,14 +31,7 @@ string Get_NOMBRE();
  * @param int
  * @param string
  */
-void cProducto(void float, void string , void int, void string);
-protected: 
-    float precio;
-    string nombre;
-    int cantidad;
-    string marca;
-    
-void cProducto();
+
 };
 
 #endif //_CPRODUCTO_H

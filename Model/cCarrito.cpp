@@ -21,7 +21,7 @@ cProducto cCarrito::GET_LISTAPRODUCTOS() {
  * @param float
  * @return void
  */
-void cCarrito::SET_PRECIOCARRITO(void float) {
+void cCarrito::SET_PRECIOCARRITO(float _precioNuevo) {
     return;
 }
 
@@ -29,7 +29,8 @@ void cCarrito::SET_PRECIOCARRITO(void float) {
  * @param float
  * @param int
  */
-void cCarrito::cCarrito(void float, void int) {
+cCarrito::cCarrito(float _precioTotal, int _cantidad)
+{
 
 }
 
@@ -38,7 +39,7 @@ void cCarrito::cCarrito(void float, void int) {
  * @param int
  * @return void
  */
-void cCarrito::AgregarProductos(void cProductos, void int) {
+void cCarrito::AgregarProductos(cProductos _product, int _cant) {
     return;
 }
 
@@ -47,10 +48,10 @@ void cCarrito::AgregarProductos(void cProductos, void int) {
  * @param int 
  * @return void
  */
-void cCarrito::EliminarProductos(void cProductos, void int ) {
+void cCarrito::EliminarProductos(cProductos _product, int _cant) {
     return;
 }
 
-void cCarrito::cCarrito() {
+cCarrito::~cCarrito() {
 
 }

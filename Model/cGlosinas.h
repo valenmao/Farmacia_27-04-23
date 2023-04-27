@@ -7,24 +7,18 @@
 #define _CGLOSINAS_H
 
 #include "cProducto.h"
+#include "eGolosinas.h"
 
 
-class cGlosinas: public cProducto {
-public: 
-    
-/**
- * @param float
- * @param string
- * @param int
- * @param string
- * @param eGolosinas
- */
-void cGolosinas(void float, void string, void int, void string, void eGolosinas);
-protected: 
-    
-void cGolosinas();
-private: 
+class cGlosinas : public cProducto {
+private:
     eGolosinas tipoGolosina;
+public:
+    ~cGolosinas();
+
+  
+    cGolosinas(float _precio, string _nombre, int _cantidad, string _marca, eGolosinas _tipoGolosinas);
+    
 };
 
 #endif //_CGLOSINAS_H

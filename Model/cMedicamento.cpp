@@ -18,10 +18,9 @@
  * @param int
  * @param bool
  */
-void cMedicamento::cMedicamento(void float, void string, void int, void string, void int, void bool) {
+cMedicamento::cMedicamento(float _precio, string _nombre, int _cantidad, string _marca, int _dosis, bool _ventaLibre) {
 
 }
-
-void cMedicamento::cMedicamento() {
+cMedicamento::~cMedicamento() {
 
 }

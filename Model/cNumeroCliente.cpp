@@ -10,28 +10,19 @@
  */
 
 
-/**
- * @param int
- */
-void cNumeroCliente::cNumeroCliente(void int) {
+ cNumeroCliente::cNumeroCliente(int _numeroActual) {
 
 }
 
-/**
- * @return int
- */
+
 int cNumeroCliente::GET_NUMERO() {
     return 0;
 }
 
-/**
- * @param int
- * @return void
- */
-void cNumeroCliente::SET_NUMERO(void int) {
+void cNumeroCliente::SET_NUMERO( int _numeroNuevo) {
     return;
 }
 
-void cNumeroCliente::cNumeroCliente() {
+cNumeroCliente::~cNumeroCliente() {
 
 }
