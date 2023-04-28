@@ -28,15 +28,11 @@ private:
     eNecesidad necesidad;
     const stirng DNI;
 public: 
- cCliente(string nombre,string apellido,string contacto, eMetodo metodoPago,  sLesion lesion, eNecesidad necesidad, const string DNI);
-   
- ~cCliente();
-
-cCarrito GET_CARRITO();
-
-void AgregarProductosPerfumeria(cProducto prodPerfumeria, int cantidad);
-
-void AgregarGolosinas(cProducto golosinas, int cantidad);
+    cCliente(string nombre,string apellido,string contacto, eMetodo metodoPago,  sLesion lesion, eNecesidad necesidad, const string DNI);
+    ~cCliente();
+    cCarrito GET_CARRITO();
+    void AgregarProductosPerfumeria(cProducto prodPerfumeria, int cantidad);
+    void AgregarGolosinas(cProducto golosinas, int cantidad);
 
 };
 

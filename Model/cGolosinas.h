@@ -15,7 +15,6 @@ private:
     eGolosinas tipoGolosina;
 public:
        cGolosinas(float _precio, string _nombre, int _cantidad, string _marca, eGolosinas _tipoGolosinas);
-       
        ~cGolosinas();
 };
 

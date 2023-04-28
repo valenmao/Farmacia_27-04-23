@@ -16,11 +16,9 @@ private:
     string contacto;
 
 public: 
-
-cLocal(string _nombre, string _direccion, string _contacto);
-~cLocal();
-
-void AgregarTicketCompra(cTicketdecompra _ticketNuevo);
+    cLocal(string _nombre, string _direccion, string _contacto);
+    ~cLocal();
+    void AgregarTicketCompra(cTicketdecompra _ticketNuevo);
 
 };
 

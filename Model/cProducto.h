@@ -17,14 +17,10 @@ protected:
     string marca;
 
 public: 
-    
- cProducto(float _precio, string _nombre, int _cantidad, string marca);
-
- ~cProducto();
-
-float Get_PRECIO();
-    
-string Get_NOMBRE();
+    cProducto(float _precio, string _nombre, int _cantidad, string marca);
+    ~cProducto();
+    float Get_PRECIO();   
+    string Get_NOMBRE();
  
 };
 

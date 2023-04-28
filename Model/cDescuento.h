@@ -13,13 +13,10 @@ private:
     string obraSocial;
 
 public: 
- cDescuento(float porcentaje, string obraSocial);
- 
- ~cDescuento();
-
-float GET_PORCENTAJE();
-
-string GET_OBRASOCIAL();
+    cDescuento(float porcentaje, string obraSocial);
+    ~cDescuento();
+    float GET_PORCENTAJE();
+    string GET_OBRASOCIAL();
 };
 
 #endif //_CDESCUENTO_H

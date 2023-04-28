@@ -17,8 +17,7 @@ private:
     bool ventaLibre;
 
 public: 
-    cMedicamento(float _precio, string _nombre, int _cantidad, string _marca, int _dosis, bool _ventaLibre);
-    
+    cMedicamento(float _precio, string _nombre, int _cantidad, string _marca, int _dosis, bool _ventaLibre);    
     ~cMedicamento();
 
 

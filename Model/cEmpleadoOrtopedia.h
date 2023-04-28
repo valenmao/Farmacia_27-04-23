@@ -14,13 +14,9 @@ class cEmpleadoOrtopedia: public cEmpleado {
 public:
 
     cEmpleadoOrtopedia(string nombre, string apellido, int numerEmpleado, const string DNI, string contacto);
-
     ~cEmpleadoOrtopedia();
-
     sLesion GET_LESION();
-
     void Asesorar(cCliente cliente);
-
     void RecomendarProductos(cCliente cliente);
 };
 

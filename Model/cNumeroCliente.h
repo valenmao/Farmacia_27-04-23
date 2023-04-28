@@ -11,14 +11,10 @@ private:
     int numero;
 
 public: 
-cNumeroCliente(int _numeroActual);
-
-~cNumeroCliente();
-
-int GET_NUMERO();
-
-void SET_NUMERO(int _numeroNuevo);
-   
+    cNumeroCliente(int _numeroActual);
+    ~cNumeroCliente();
+    int GET_NUMERO();
+    void SET_NUMERO(int _numeroNuevo);
 
 };
 
