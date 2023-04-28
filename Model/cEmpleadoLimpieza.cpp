@@ -12,11 +12,12 @@ cEmpleadoLimpieza::cEmpleadoLimpieza(string nombre, string apellido, int numeroE
 cEmpleadoLimpieza::~cEmpleadoLimpieza() {
 
 }
-void cEmpleadoLimpieza::SET_TURNO(void int ) {
+void cEmpleadoLimpieza::SET_TURNO(int _turnoNuevo ) {
+    this->turno = _turnoNuevo;
     return;
 }
 
 int cEmpleadoLimpieza::GET_TURNO() {
-    return 0;
+    return this->turno;
 }
 

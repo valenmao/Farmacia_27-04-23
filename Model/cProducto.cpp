@@ -12,10 +12,10 @@ cProducto::~cProducto() {
 }
 
 float cProducto::Get_PRECIO() {
-    return 0.0;
+    return this->precio;
 }
 
 string cProducto::Get_NOMBRE() {
-    return "";
+    return this->nombre;
 }
 

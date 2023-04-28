@@ -15,14 +15,14 @@
  }
 
 int cReceta::GET_DOSIS() {
-    return 0;
+    return this->dosis;
 }
 
 string cReceta::GET_MEDICAMENTO() {
-    return "";
+    return this->Medicamento;
 }
 
 string cReceta::GET_OBRASOCIAL() {
-    return "";
+    return this->ObraSocial;
 }
 

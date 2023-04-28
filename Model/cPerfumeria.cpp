@@ -14,5 +14,5 @@ cPerfumeria::~cPerfumeria() {
 }
 
 ePerfumeria cPerfumeria::GET_TIPO() {
-    return null;
+    return this->tipoProducto;
 }

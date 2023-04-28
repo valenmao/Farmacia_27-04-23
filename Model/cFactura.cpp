@@ -14,10 +14,11 @@ cFactura::~cFactura() {
 }
 
 bool cFactura::GET_FORMATO() {
-    return false;
+    return this->formato;
 }
 
 void cFactura::SET_FORMATO(bool _nuevoFormato ) {
+    this->formato = _nuevoFormato;
     return;
 }
 

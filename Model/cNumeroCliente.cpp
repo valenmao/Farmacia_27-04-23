@@ -15,10 +15,11 @@
  }
 
 int cNumeroCliente::GET_NUMERO() {
-    return 0;
+    return this->numero;
 }
 
 void cNumeroCliente::SET_NUMERO( int _numeroNuevo) {
+    this->numero = _numeroNuevo;
     return;
 }
 

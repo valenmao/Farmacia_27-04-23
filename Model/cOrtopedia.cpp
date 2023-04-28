@@ -14,5 +14,5 @@ cOrtopedia::~cOrtopedia() {
 }
 
 eOrtopedia cOrtopedia::GET_TIPO() {
-    return null;
+    return this->tipoProducto;
 }

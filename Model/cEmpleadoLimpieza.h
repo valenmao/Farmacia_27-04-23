@@ -11,14 +11,14 @@
 
 class cEmpleadoLimpieza: public cEmpleado {
 private:
-    int truno;
+    int turno;
 
 public:
     cEmpleadoLimpieza(string nombre, string apellido, int numeroEmpleado, const string DNI, string contacto, int turno);
     
     ~cEmpleadoLimpieza();
 
-    void SET_TURNO(void int);
+    void SET_TURNO(int _turnoNuevo);
 
     int GET_TURNO();
 };

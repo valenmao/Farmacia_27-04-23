@@ -28,4 +28,6 @@ void cEmpleadoMostrador::EnviarClienteOtroEmp( cCliente _cliente) {
 
 void cEmpleadoMostrador::SET_NUMACTUAL(unsigned int numero)
 {
+    this->numActual = numero;
+    return;
 }

@@ -10,6 +10,10 @@
 
 }
 
+ cEmpleadoOrtopedia::~cEmpleadoOrtopedia() {
+
+ }
+
 sLesion cEmpleadoOrtopedia::GET_LESION() {
     return;
 }
@@ -22,6 +26,3 @@ void cEmpleadoOrtopedia::RecomendarProductos(cCliente cliente) {
     return;
 }
 
- cEmpleadoOrtopedia::~cEmpleadoOrtopedia() {
-
-}

@@ -15,6 +15,7 @@ cCarrito::~cCarrito() {
 }
 
 cProducto cCarrito::GET_LISTAPRODUCTOS() {
+   
     return;
 }
 

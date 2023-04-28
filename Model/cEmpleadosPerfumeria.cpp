@@ -10,10 +10,11 @@
 
 }
 
+ cEmpleadosPerfumeria::~cEmpleadosPerfumeria() {
+
+ }
+
 void cEmpleadosPerfumeria::Asesorar(cCliente cliente) {
     return;
 }
 
-cEmpleadosPerfumeria::~cEmpleadosPerfumeria() {
-
-}
